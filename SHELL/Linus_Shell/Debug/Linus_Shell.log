@@ -1,0 +1,16 @@
+﻿Build started 10/11/2019 9:42:22 PM.
+     1>Project "E:\SHELL\Linus_Shell\Linus_Shell.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt getopt.cpp Source.cpp
+         Source.cpp
+     1>e:\shell\linus_shell\source.cpp(8): fatal error C1083: Cannot open include file: 'sys/wait.h': No such file or directory
+         getopt.cpp
+     1>d:\program files (x86)\microsoft visual studio 14.0\common7\ide\vc\include\xkeycheck.h(182): warning C4005: 'const' : macro redefinition
+                 e:\shell\linus_shell\getopt.cpp(35) : see previous definition of 'const'
+     1>d:\program files (x86)\microsoft visual studio 14.0\common7\ide\vc\include\xkeycheck.h(250): fatal error C1189: #error :  The C++ Standard Library forbids macroizing keywords. Enable warning C4005 to find the forbidden macro.
+         Generating Code...
+     1>Done Building Project "E:\SHELL\Linus_Shell\Linus_Shell.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.47
